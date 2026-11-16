@@ -1,0 +1,30 @@
+﻿use advent_of_code_2026::{input, time};
+
+fn part1(input: &str) -> u64 {
+    0
+}
+
+fn part2(input: &str) -> u64 {
+    0
+}
+
+fn main() {
+    let input = input!("input.txt");
+    time("Part 1", || part1(&input));
+    time("Part 2", || part2(&input));
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_part1() {
+        assert_eq!(part1(&input!("test1.txt")), 0);
+    }
+
+    #[test]
+    fn test_part2() {
+        assert_eq!(part2(&input!("test1.txt")), 0);
+    }
+}
